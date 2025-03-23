@@ -26,24 +26,4 @@ This project demonstrates the usage of **GraphQL** in a web technology applicati
 3. Start the GraphQL server: `npm start`
 4. Run the frontend application (if applicable)
 
-## Sample Query
-```
-query {
-  student(id: "1") {
-    name
-    examRoll
-    semester
-  }
-}
-```
-
-## Sample Mutation
-```
-mutation {
-  updateStudent(id: "1", name: "New Name") {
-    name
-    examRoll
-  }
-}
-```
 
